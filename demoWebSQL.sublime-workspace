@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pre",
+				"prepend\t.prepend()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <title>Адресный справочник</title>\n\n    <!-- styles -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link href=\"css/styles.css\" rel=\"stylesheet\">\n\n</head>\n<body>\n    <div class=\"page\">\n        <div class=\"page-head\"></div>\n        <div class=\"page-body\"></div>\n    </div>\n\n    <!-- scripts -->\n    <script src=\"js/jquery.min.js\"></script>\n    <script src=\"js/jquery.tmpl.js\"></script>\n    <script src=\"js/bootstrap.min.js\"></script>\n    <script src=\"js/scripts.js\"></script>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 660,
+			"file_write_time": 131386419123316182,
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 25633,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 4026,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/mnt/c/Common/web/demoWebSQL"
+	],
+	"file_history":
+	[
+		"/home/anton/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/anton/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/anton/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/anton/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/anton/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+		"/mnt/c/Common/web/demoWebSQL/demoWebSQL.sublime-project",
+		"/mnt/c/Common/web/demoWebSQL/templates/navbar_menu_block.html",
+		"/mnt/c/Common/web/demoWebSQL/index.html",
+		"/mnt/c/Common/web/demoWebSQL/templates/navbar_block.html",
+		"/home/anton/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/mnt/c/Common/web/demoWebSQL/js/livereload.js",
+		"/home/anton/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+		"/home/anton/.config/sublime-text-3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/home/anton/.config/sublime-text-3/Packages/User/Browser.sublime-settings"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"location"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4026,
+						"regions":
+						{
+							"gutter_color_100":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#545454.png",
+								"regions":
+								[
+									[
+										100,
+										119
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1380":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(165, 254, 166, 0.7).png",
+								"regions":
+								[
+									[
+										1380,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1428":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										1428,
+										1457
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1552":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(76, 174, 76, 0.6).png",
+								"regions":
+								[
+									[
+										1552,
+										1597
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1598":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										1598,
+										1635
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2122":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#AFCDE7.png",
+								"regions":
+								[
+									[
+										2122,
+										2146
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2147":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										2147,
+										2164
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2254":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										2254,
+										2278
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2308":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#D8E6F3.png",
+								"regions":
+								[
+									[
+										2308,
+										2332
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_237":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f2f2f2.png",
+								"regions":
+								[
+									[
+										237,
+										267
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2561":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#5dd65d.png",
+								"regions":
+								[
+									[
+										2561,
+										2620
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2621":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										2621,
+										2660
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2684":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										2684,
+										2727
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_290":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#8c8c8c.png",
+								"regions":
+								[
+									[
+										290,
+										431
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3087":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(52, 52, 52, 0.47).png",
+								"regions":
+								[
+									[
+										3087,
+										3132
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3215":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(165, 254, 166, 0.7).png",
+								"regions":
+								[
+									[
+										3215,
+										3262
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3263":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										3263,
+										3292
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3327":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#208120.png",
+								"regions":
+								[
+									[
+										3327,
+										3346
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3407":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										3407,
+										3440
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3589":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										3589,
+										3619
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3655":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4cae4c.png",
+								"regions":
+								[
+									[
+										3655,
+										3681
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3830":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(76, 174, 76, 0.6).png",
+								"regions":
+								[
+									[
+										3830,
+										3875
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_432":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ffffff.png",
+								"regions":
+								[
+									[
+										432,
+										600
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_601":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ffffff.png",
+								"regions":
+								[
+									[
+										601,
+										769
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_770":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#8c8c8c.png",
+								"regions":
+								[
+									[
+										770,
+										866
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_867":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgb(172, 223, 249).png",
+								"regions":
+								[
+									[
+										867,
+										936
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_937":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgb(172, 223, 249).png",
+								"regions":
+								[
+									[
+										937,
+										1013
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.421580928482,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "demoWebSQL.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

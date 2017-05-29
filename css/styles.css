@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    color: #545454;
+}
+
+.page {
+    height: 100%;
+    min-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+
+    background-color: #f2f2f2;
+    background-image:
+            linear-gradient(#8c8c8c 0px, #8c8c8c 1px, #ffffff 1px, #ffffff 7px, #8c8c8c 7px, #8c8c8c 8px, transparent 8px, transparent 100%),
+            radial-gradient( #ffffff 0px, #ffffff 3px, #8c8c8c 3px, #8c8c8c 4px, #d8d8d8 4px, #d8d8d8 5px, #646464 6px, #646464 7px, transparent 8px, transparent 100%),
+            radial-gradient( #ffffff 0px, #ffffff 3px, #8c8c8c 3px, #8c8c8c 4px, #d8d8d8 4px, #d8d8d8 5px, #646464 6px, #646464 7px, transparent 8px, transparent 100%),
+            linear-gradient(90deg, transparent 4px, #8c8c8c 8px, #8c8c8c 10px, transparent 4px),
+            linear-gradient(rgb(172, 223, 249) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(172, 223, 249) 1px, transparent 1px);
+    background-size:39px 70px, 70px 70px, 70px 70px, 100% 1.2em, 20px 20px, 20px 20px;
+    background-position:28px 51px, -7px 20px, 33px 20px, 40px, -1px -1px, -1px -1px, 50px;
+    background-repeat: repeat-y, repeat-y, repeat-y, repeat, repeat, repeat;
+}
+
+@media (min-width: 768px) {
+    .page {
+        width: 1000px;
+        padding: 10px;
+    }
+}
+
+.page-body {
+    background-color: rgba(165, 254, 166, 0.7);
+    border:1px solid #4cae4c;
+}
+
+.page-body_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(76, 174, 76, 0.6);
+    border-bottom: 1px solid #4cae4c;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    height: 36px;
+}
+
+.page-body_main {
+    margin: 10px;
+}
+
+.form {
+    padding: 15px;
+    width: 230px;
+}
+
+.input{
+    min-width: 230px;
+}
+
+.person-list_body {
+     overflow: auto;
+ }
+
+/* Основной стиль для таблиц */
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 4px 5px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 4px 5px;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+/* Стиль для модульных сообщений*/
+
+.toast-mess {
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #5dd65d; /* Black background color */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 10; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    top: 50%;
+}
+.toast-mess_back{
+    position: fixed;
+    z-index: 5;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0%;
+    top:0%;
+    background-color: rgba(52, 52, 52, 0.47);
+}
+
+/* Корректируем классы Bootstrap*/
+
+.navbar-default {
+    margin-bottom: 10px;
+    background-color: rgba(165, 254, 166, 0.7);
+    border:1px solid #4cae4c;
+}
+.navbar-default .navbar-brand {
+    color: #208120;
+    font-weight: bold;
+}
+.navbar-default .navbar-collapse {
+    border-top:1px solid #4cae4c;
+}
+
+@media (min-width: 768px) {
+    .navbar-default .navbar-collapse {
+        border-top: none;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4cae4c;
+}
+.navbar-default .navbar-toggle {
+    border-color: #4cae4c;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background:none;
+}
+
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: rgba(76, 174, 76, 0.6);
+}
+
+.dropdown-menu {
+    overflow: auto;
+    max-height: 200px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
