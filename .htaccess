@@ -1,0 +1,10 @@
+<filesMatch "\.(html|htm|js|css)$">
+	 Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+</filesMatch>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^webstorage$
+    RewriteCond %{REQUEST_URI} !/index\.html$
+    RewriteCond %{REQUEST_URI} !((^/js/)|(^/css/)|(^/img/)|(^/templates/))
+    RewriteRule  .* index.html [L]
+ </IfModule>

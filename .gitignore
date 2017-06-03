@@ -1,2 +1,4 @@
 serv/
 *.sublime*
+.idea/
+*.swp
