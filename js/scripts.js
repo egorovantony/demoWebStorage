@@ -124,7 +124,7 @@ function initCustPath(){
     custPath.arr = pathArr;
 }
 
-/*--- Functions insert content ---*/
+/*--- Functions create content ---*/
 
 function clearContent(){
     $(".page-head").html("");
@@ -258,7 +258,7 @@ function requestMapping(event) {
 }
 
 
-/*--- Функции на различные события ---*/
+/*--- Handlers events ---*/
 
 function dropDown(element){
     var searchJsEl = $(element).parent("li").parent("ul").attr("class").match(/js-contact[A-Za-z0-9-_]*/);
@@ -313,7 +313,7 @@ function redirectErrorPage(){
     window.location.href = window.location.origin + "/404/";
 }
 
-// Функция вставки шаблонного блока
+// Function insert template
 
 function insertBlock(block, into, func, dataIn) {
     $.get("/templates/" + block, function (data, textStatus, XMLHttpRequest) {
@@ -334,7 +334,7 @@ function insertBlock(block, into, func, dataIn) {
     });
 }
 
-// Функция для парсинга Get запроса
+// Function to parse a get-query
 /*
 function getParamFromGetQuery(key){
     var get = location.search;	// строка GET запроса
@@ -353,16 +353,15 @@ function getParamFromGetQuery(key){
 }
 */
 
-/*--- Функции работы с пользователем ---*/
+/*--- Functions fto operate a User ---*/
 
-// Определение пользователя
 function User(){
     this.key  = "";
     this.name = "";
     this.password = "";
 }
 
-//Функция создания объекта для нового пользователя по данным html-формы
+//Create User from html-form
 function newUser(){
     var user = new User();
     $(".input").each(function(){
@@ -383,9 +382,8 @@ function newUser(){
     return user;
 }
 
-/*--- Функции работы с Персоной ---*/
+/*--- Function to operate a Person ---*/
 
-// Определение объекта Person
 function Person(){
     this.key  = "";
     this.name = "";
@@ -393,6 +391,7 @@ function Person(){
     this.address = "";
 }
 
+// Create Person from html-form
 function newPerson(){
     var person = new Person();
     $(".input").each(function(){
@@ -462,7 +461,8 @@ function editPerson(){
     return false;
 }
 
-/*---  Функции работы с контактом ---*/
+/*---  Function to operate a Contact ---*/
+
 function Contact(){
     this.key  = "";
     this.person_key = "";
@@ -561,7 +561,7 @@ function validateCreateContact(inputField){
     return true;
 }
 
-/*--- Функции авторизации ---*/
+/*--- Authorization ---*/
 
 function login(){
     var name = $("#input-username").val();
@@ -598,7 +598,7 @@ function exit(){
     sessionStorage.removeItem("user");
 }
 
-/*--- Функции валидации ---*/
+/*--- Data-validation ---*/
 
 function validateRegistration(){
     var validate = true;
@@ -722,7 +722,7 @@ function validateRepPassword(userRepPass){
     return true;
 }
 
-/*--- Функции для работы с данными пользователя ---*/
+/*--- User ---*/
 
 function dbGetUserByName(userName) {
     var userKeys = dbGetArrayByKey("user");
@@ -755,7 +755,7 @@ function dbSaveUser(user){
     localStorage.setItem(user.key, JSON.stringify(user));
 }
 
-/*--- Функции для работы с данными персоны ---*/
+/*--- Person ---*/
 
 function dbGetPersonByName(personName) {
     var personKeys = dbGetArrayByKey("person");
@@ -823,7 +823,7 @@ function dbGetCountContactsForPerson(personKey){
     return count;
 }
 
-/*--- Функции для работы данными Контакта ---*/
+/*--- Contact---*/
 
 function dbGetContactByName(contactName) {
     var contactKeys = dbGetArrayByKey("contact");
@@ -878,7 +878,7 @@ function dbDeleteContact(key){
     dbDeleteArrKeys("contact", key)
 }
 
-/*--- Общие функции для работы с БД ---*/
+/*--- Common ---*/
 
 function dbGetNewKey(prefKey){
     var currKey = prefKey + "-curr-key";
@@ -934,7 +934,8 @@ function dbDeleteArrKeys(prefArrKey, key){
     }
 }
 
-// Первоначальная инициализация БД
+// First init DB
+
 function dbInit(){
     var userKeys = localStorage.getItem("user-keys");
 
@@ -954,10 +955,6 @@ function dbInit(){
     dbSavePerson(person);
 }
 
-
-
-// Функция задержки
-
 function sleep(millis) {
     var t = (new Date()).getTime();
     var i = 0;
@@ -965,8 +962,6 @@ function sleep(millis) {
         i++;
     }
 }
-
-// Функция вывода модульного сообщения
 
 function openToastMessage(delay, text, func){
     var lDelay;
