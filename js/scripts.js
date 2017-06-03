@@ -1,4 +1,5 @@
 
+// my
 // Constants
 var contactTypes = ["phone", "e-mail", "skype", "facebook", "vk"];
 var siteRoot = "webstorage";
